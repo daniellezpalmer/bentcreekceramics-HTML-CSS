@@ -14,5 +14,8 @@ Create 3 linked and styled pages for a ceramics shop using HTML/CSS.
 - [ ] Add favicon
 
 ## Challenges
+- Using images in CSS not HTML
+- Using figcaption
+- Styling a table
 
 ## Screenshots
