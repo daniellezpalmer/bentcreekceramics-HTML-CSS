@@ -11,7 +11,7 @@ Create 3 linked and styled pages for a ceramics shop using HTML/CSS.
 - [x] Add images folder & images
 - [x] Add page content using semantically meaningful HTML
 - [x] Style using CSS
-- [ ] Add favicon
+- [x] Add favicon
 
 ## Challenges
 - Using images in CSS not HTML
