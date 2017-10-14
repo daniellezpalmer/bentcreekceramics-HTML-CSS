@@ -196,6 +196,7 @@ margin:5px;
   padding-left: 10%;
   padding-right: 10%;
   line-height: 2;
+  text-align: justify;
 }
 
 #title-about {
@@ -204,12 +205,21 @@ margin:5px;
   font-size: 50px;
 }
 
-#imgbirbs {
-  background-image: url(."/images/birdhouse.jpg");
-  background-size: cover;
-  height:100px;
-  width:100px;
+#para1-about img {
   float:left;
+  width:100px;
+  height:100px;
+  margin:20px 20px 10px 20px;
+}
+
+#para1-about a{
+  color: #968772
+}
+#birdhouse{
+  width: 150px;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
 
 blockquote {
