@@ -6,7 +6,7 @@
     <link href="./main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
   </head>
-  <body>
+  <body id="nl-body">
     <header>
     <img id="logo" src="./images/bent-creek-logo.png" alt="Bent Creek Ceramics logo">
     <nav>
@@ -15,17 +15,24 @@
       <a href="./newsletter.html">Newsletter</a>
     </nav>
   </header>
-    Sign Up for Our Weekly Newsletter
+  <div id="body-nl">
+  <section id="sbmt">
+    <p class="title-nl">Sign Up for Our Weekly Newsletter</p>
 
-    Stay up to date with events, activities, news and specials.
+        <p class="subtitle-nl">Stay up to date with events, activities, news and specials.</p>
 
-    Name
+        <form action="submit" method="">
+               <label for="name"></label>
 
-    Email
+               <input type="text" name="name" id="name" placeholder="Name"></br>
 
-    Submit
+               <label for="email"></label>
 
-    <footer>Copyright 2017, Bent Creek Ceramics</footer>
+               <input type="email" name="email" id="email"placeholder="Email"></br>
 
+               <button type="submit" id="submit">Submit</button>
+           </form>
+</section>
+</div>
   </body>
 </html>
