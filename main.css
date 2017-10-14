@@ -19,6 +19,7 @@ font-family: 'Roboto', sans-serif;*/
 body {
   background-color:#F2F1E8;
   color:#131511;
+  font-family:'Merriweather', serif;
 }
 
 header {
@@ -49,7 +50,7 @@ align-self: center;
 }
 
 a {
-  color: #131511;
+  color: #2B2F26;
   padding-left:30px;
   padding-right:30px;
 }
@@ -62,6 +63,127 @@ a:hover {
   margin-top:80px;
   text-align: center;
   font-size: 60px;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 30px;
+}
+
+#section1 {
+  display:flex;
+  height:300px;
+}
+
+#img1 {
+background-size: cover;
+flex-basis: 50%;
+background-image: url("./images/product-1.jpg");
+margin:5px;
+}
+
+#img1 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:175px;
+  text-align:center;
+  margin-top: 250px;
+}
+
+#img2 {
+background-size: cover;
+flex-basis: 25%;
+background-image: url("./images/product-2.jpg");
+margin:5px;
+}
+
+#img2 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:50px;
+  text-align:center;
+  margin-top: 250px;
+}
+
+#img3 {
+background-size: cover;
+flex-basis: 25%;
+background-image: url("./images/product-3.jpg");
+margin:5px;
+}
+
+#img3 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:100px;
+  text-align:center;
+  margin-top: 250px;
+}
+
+#section2 {
+  display:flex;
+  height:200px;
+  margin-bottom: 80px;
+}
+
+#img4 {
+  background-size: cover;
+  flex-basis: 20%;
+  background-image: url("./images/product-4.jpg");
+  margin:5px;
+}
+
+#img4 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:100px;
+  text-align:center;
+  margin-top: 150px;
+}
+
+#img5 {
+  background-size: cover;
+  flex-basis: 20%;
+  background-image: url("./images/product-5.jpg");
+  margin:5px;
+}
+
+#img5 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:175px;
+  text-align:center;
+  margin-top: 150px;
+}
+
+#img6 {
+  background-size: cover;
+  flex-basis: 40%;
+  background-image: url("./images/product-6.jpg");
+  margin:5px;
+}
+
+#img6 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:150px;
+  text-align:center;
+  margin-top: 150px;
+}
+
+#img7 {
+  background-size: cover;
+  flex-basis: 20%;
+  background-image: url("./images/product-7.jpg");
+  margin:5px;
+}
+
+#img7 p {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  width:175px;
+  text-align:center;
+  margin-top: 150px;
 }
 
 footer {
