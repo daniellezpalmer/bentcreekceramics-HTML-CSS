@@ -243,6 +243,58 @@ blockquote {
   font-size: 25px;
 }
 
+.fac_1 {
+  display: flex;
+}
+
+.fac_1 img {
+  float: right;
+  height: 85px;
+}
+
+figure img {
+  margin-bottom: 1em;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+#subtitle3-about {
+  font-size: 25px;
+}
+
+#section4-about {
+margin-bottom: 80px;
+}
+
+table {
+  border: 1px solid #131511;
+  align-content: center;
+  border-collapse: collapse;
+}
+th {
+  border: 1px;
+  border-style: solid;
+  border-color: #131511;
+  padding:5px;
+}
+
+td {
+  border: 1px;
+  border-style: solid;
+  border-color: #131511;
+  padding:5px;
+}
+
+#tr2{
+  background-color: #F2EADC;
+}
+
+#tr4{
+  background-color: #F2EADC;
+}
+
 /*ALL*/
 
 footer {
