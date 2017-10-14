@@ -16,6 +16,8 @@ Input Border Bottom (Focus): #967343*/
 /*font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;*/
 
+/*ALL*/
+
 body {
   background-color:#F2F1E8;
   color:#131511;
@@ -58,6 +60,8 @@ a {
 a:hover {
   color:#967343;
 }
+
+/*HOME*/
 
 #title {
   margin-top:80px;
@@ -185,6 +189,61 @@ margin:5px;
   text-align:center;
   margin-top: 150px;
 }
+
+/*ABOUT*/
+
+.pagepadding {
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 2;
+}
+
+#title-about {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#imgbirbs {
+  background-image: url(."/images/birdhouse.jpg");
+  background-size: cover;
+  height:100px;
+  width:100px;
+  float:left;
+}
+
+blockquote {
+  border-left: solid;
+  border-left-color: grey;
+  border-width: thin;
+  color:grey;
+  padding-left:20px;
+  font-style: italic;
+}
+
+#subtitle1-about {
+  font-size: 25px;
+}
+
+#bg3 {
+  background-image: url("./images/background-3.jpg");
+  background-size: cover;
+  width:100%;
+  height:250px;
+}
+
+#bg3 p {
+  color:#F2F1E8;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+#subtitle2-about {
+  font-size: 25px;
+}
+
+/*ALL*/
 
 footer {
 background: #2B2F26;
