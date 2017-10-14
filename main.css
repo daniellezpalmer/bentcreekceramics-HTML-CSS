@@ -15,3 +15,63 @@ Input Border Bottom (Focus): #967343*/
 
 /*font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;*/
+
+body {
+  background-color:#F2F1E8;
+  color:#131511;
+}
+
+header {
+  position: fixed;
+  width:100%;
+  background-color: #FFFFFF;
+  padding:25px 20px 10px 20px;
+  margin:-20px;
+  top:0;
+  right:0;
+  z-index:2;
+  display:flex;
+}
+
+#logo {
+height:30px;
+width:50px;
+flex-basis:5%;
+align-self: center;
+padding: 5px;
+}
+
+nav {
+display: flex;
+justify-content: center;
+flex-basis: 95%;
+align-self: center;
+}
+
+a {
+  color: #131511;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+a:hover {
+  color:#967343;
+}
+
+#title {
+  margin-top:80px;
+  text-align: center;
+  font-size: 60px;
+}
+
+footer {
+background: #2B2F26;
+color: #F2F1E8;
+padding: 20px 0px 20px 15px;
+position: fixed;
+bottom: 0;
+left: 0;
+height: 20px;
+width: 100%;
+z-index: 2;
+}
